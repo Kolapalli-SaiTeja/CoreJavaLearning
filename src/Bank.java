@@ -3,49 +3,47 @@ package src;
 public class Bank {
 
 
+    static int currentBalance = 2000;
 
-        static int currentBalance = 2000;
-        public  void Congratulations()
-        {
-            System.out.println("Welcome to zoro banking");
-        }
-        public void deposit(int depositAmount)
-        {
-            currentBalance= currentBalance+depositAmount;
-        }
+    public void Congratulations() {
+        System.out.println("Welcome to zoro banking");
+    }
 
-        public void withdraw (int withdrawAmount)
-        {
-            currentBalance =currentBalance-withdrawAmount;
-        }
+    public void deposit(int depositAmount) {
+        currentBalance = currentBalance + depositAmount;
+    }
 
-        public static int currentAmount()
-        {
+    public void withdraw(int withdrawAmount) {
+        currentBalance = currentBalance - withdrawAmount;
+    }
 
-            return currentBalance;
+    public static int currentAmount() {
 
-        }
-        public static void main(String[] args) {
+        return currentBalance;
 
-            Bank calling =new Bank();
+    }
 
-            calling.Congratulations();
+    public static void main(String[] args) {
 
-            System.out.println("your balance in your account is" + '\t' + currentAmount());
+        Bank calling = new Bank();
+
+        calling.Congratulations();
+
+        System.out.println("your balance in your account is" + '\t' + currentAmount());
 
 
-            calling.deposit(500);
-            System.out.println("your balance after depositing is" + '\t' + currentAmount());
+        calling.deposit(500);
+        System.out.println("your balance after depositing is" + '\t' + currentAmount());
 
-            calling.withdraw(200);
-            System.out.println("your balance after withdrawal is" + '\t' + currentAmount());
+        calling.withdraw(200);
+        System.out.println("your balance after withdrawal is" + '\t' + currentAmount());
 
-            System.out.println("your final balance in your account is" + '\t' + currentAmount());
-
-
-        }
+        System.out.println("your final balance in your account is" + '\t' + currentAmount());
 
 
     }
+
+
+}
 
 
