@@ -6,12 +6,11 @@ public class Primenumber2 {
 
         //print the prime numbers between 50 to 150
 
-        //num =4 // 1,2,3,4
-
-        int num = 10;
 
 
-        for (int i = 2; i < num; i++) {
+        int num = 50;
+
+        for (int i = 1; i <= num; i++) {
 
             boolean isprime = true;
 
@@ -21,6 +20,7 @@ public class Primenumber2 {
                 if (i % j == 0) {
 
                     isprime = false;
+
                     break;
                 }
 
