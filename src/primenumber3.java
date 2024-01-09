@@ -22,6 +22,7 @@ public class primenumber3 {
             if (number % i == 0) {
 
                isPrime =false;
+
                 System.out.println("Not a prime number");
                 break;
 

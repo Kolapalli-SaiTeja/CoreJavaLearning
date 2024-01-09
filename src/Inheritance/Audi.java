@@ -1,27 +1,43 @@
 package src.Inheritance;
 
-public class inher_pract1 {
+public class Audi {
 
     String carModel;
-    int costCost;
+    int carCost;
+    String carColor;
 
 
-    public  void brakes() {
+    void startCar() {
 
 
-        String name = "dumbu";
+        System.out.println("The car model is " + carModel);
+        System.out.println("The car cost is " + carCost);
+        System.out.println("The car color is " + carColor);
 
-        System.out.println("I am in method");
-        System.out.println("my name is "+ name+" my age is " +99);
+
+        boolean startcar = true;
+
+        if (startcar) {
+
+            System.out.println("starting car");
+
+
+        }
+
+    }
+
+    void stopCar(){
+        boolean stopCar= true;
+
+        if (stopCar){
+
+            System.out.println("Stopping car");
+
+        }
 
 
     }
 
-    public  void sunRoof() {
-
-
-        System.out.println("im in method 2");
-    }
 
 
 }

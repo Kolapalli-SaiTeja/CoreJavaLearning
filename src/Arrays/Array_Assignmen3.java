@@ -1,4 +1,6 @@
-package src;
+package src.Arrays;
+
+import java.util.Arrays;
 
 public class Array_Assignmen3 {
 
@@ -17,13 +19,22 @@ public class Array_Assignmen3 {
     for(int i =0; i<marks.length;i++)
     {
 
-        System.out.println(marks[i]);
-
-
-
+      total[i]=  marks[i];
 
     }
 
+      for (int j =0; j<marks2.length; j++){
+
+
+          total[j+marks.length] = marks2[j];
+
+
+      }
+
+
+
+
+        System.out.println( Arrays.toString(total));
 
 }
 }

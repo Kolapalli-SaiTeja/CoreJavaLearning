@@ -17,7 +17,7 @@ public class Bank {
         currentBalance = currentBalance - withdrawAmount;
     }
 
-    public static int currentAmount() {
+    public  int currentAmount() {
 
         return currentBalance;
 
@@ -29,16 +29,16 @@ public class Bank {
 
         calling.Congratulations();
 
-        System.out.println("your balance in your account is" + '\t' + currentAmount());
+        System.out.println("your balance in your account is" + '\t' + calling.currentAmount());
 
 
         calling.deposit(500);
-        System.out.println("your balance after depositing is" + '\t' + currentAmount());
+        System.out.println("your balance after depositing is" + '\t' +calling.currentAmount());
 
         calling.withdraw(200);
-        System.out.println("your balance after withdrawal is" + '\t' + currentAmount());
+        System.out.println("your balance after withdrawal is" + '\t' + calling.currentAmount());
 
-        System.out.println("your final balance in your account is" + '\t' + currentAmount());
+        System.out.println("your final balance in your account is" + '\t' + calling.currentAmount());
 
 
     }

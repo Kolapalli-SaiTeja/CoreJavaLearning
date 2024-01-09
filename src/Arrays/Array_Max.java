@@ -1,6 +1,6 @@
 package src.Arrays;
 
-public class Arrays_Ass5 {
+public class Array_Max {
     public static void main(String[] args) {
 
 
