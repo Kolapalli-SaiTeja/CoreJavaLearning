@@ -8,18 +8,22 @@ public interface Business_Document {
     public void iceCreamFlavors();
 
 
-    default public void typeOfIceCreams() {
-
-        System.out.println("types of icecreams are");
-
-
-    }
+     public void typeOfIceCreams();
 
 
     static public void ConeIceCreams() {
+        creams();
         System.out.println("Here are the cone ice creams");
 
     }
 
+
+     static void creams(){
+
+
+        System.out.println("creams");
+
+
+    }
 
 }
