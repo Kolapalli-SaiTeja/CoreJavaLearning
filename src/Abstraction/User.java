@@ -12,7 +12,7 @@ public class User {
         web.GamingMode();
         System.out.println("....");
 
-        Lenovo file = new Lenovo();
+        Laptop file = new Lenovo();
 
 
         file.cut();
