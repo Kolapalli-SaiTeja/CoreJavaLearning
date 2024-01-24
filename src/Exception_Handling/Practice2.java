@@ -10,19 +10,19 @@ public class Practice2 {
 
 
         try {
-//            int a = 10;
-//
-//            int b = 0;
-//
-//            int result = a / b;
-//
-//
-//            int[] arr = new int[3];
-//
-//            arr[0] = 1;
-//            arr[2] = 2;
-//            arr[3] = 4;
-//            arr[4] = 5;
+            int a = 10;
+
+            int b = 0;
+
+            int result = a / b;
+
+
+            int[] arr = new int[3];
+
+            arr[0] = 1;
+            arr[2] = 2;
+            arr[3] = 4;
+            arr[4] = 5;
 
             String name = "sai teja";
 
