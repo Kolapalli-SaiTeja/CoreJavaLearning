@@ -4,7 +4,7 @@ import java.util.Scanner;
 
     public class PrimeChecker {
         public static boolean isPrime(int number) {
-            if (number <= 1) {
+            if (number <= 1|| number <=3){
                 return false;
             }
             if (number <= 3) {

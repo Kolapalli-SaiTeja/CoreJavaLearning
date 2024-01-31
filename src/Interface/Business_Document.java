@@ -1,6 +1,6 @@
 package src.Interface;
 
-public interface Business_Document {
+public interface Business_Document  {
 
     public void LassiShop();
 

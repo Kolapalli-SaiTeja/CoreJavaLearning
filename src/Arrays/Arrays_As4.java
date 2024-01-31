@@ -12,6 +12,8 @@ public class Arrays_As4 {
         String[] Goods2 = {"milk", "water","coke"};
 
 
+
+
         String[]   total = new String[Goods.length+ Goods2.length];
 
 

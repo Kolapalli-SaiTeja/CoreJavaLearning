@@ -2,6 +2,7 @@ package src.Collections;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 
 public class list_Prac {
@@ -18,14 +19,25 @@ public class list_Prac {
 
        Collections.sort(cars);
 
+        Iterator iterator = cars.iterator();
 
+        while (iterator.hasNext())
+        {
 
-
-        for (Object o : cars) {
-
-            System.out.println(o);
-
+            System.out.println(iterator.next());
         }
+
+
+        System.out.println(iterator);
+
+
+
+
+//        for (Object o : cars) {
+//
+//            System.out.println(o);
+//
+//        }
 
 
 //        System.out.println(fruits);

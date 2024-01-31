@@ -8,13 +8,14 @@ public class Array_Max {
         // [2,5,1, 9, 6]
 
 
-        int[] arr = new int[5];
+        int[] arr = new int[6];
 
         arr[0] = 2;
         arr[1] = 5;
         arr[2] = 17878;
         arr[3] = 156;
         arr[4] = 6;
+        arr[5] = 'B';
 
 
         int max = 0;
@@ -27,7 +28,7 @@ public class Array_Max {
             }
 
         }
-
+        System.out.println(max);
 
     }
 }
