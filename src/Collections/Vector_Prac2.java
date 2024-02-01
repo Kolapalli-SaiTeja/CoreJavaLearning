@@ -17,7 +17,15 @@ public class Vector_Prac2 {
         v1.add(5);
 
 
-        System.out.println(v1);
+
+
+
+        for(Object store : v1){
+
+
+
+            System.out.println(store);
+        }
 
 
         Vector <Boolean> v2 = new Vector<>();
