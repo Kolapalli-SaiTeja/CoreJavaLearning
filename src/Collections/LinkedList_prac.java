@@ -6,18 +6,6 @@ public class LinkedList_prac {
 
         LinkedList <String> L1 = new LinkedList<>();
 
-//        Collection <Integer> L2 = new LinkedList<>();
-//
-//        List <Integer> L3 = new LinkedList<>();
-//
-//        Deque <Integer> L4 = new LinkedList<>();
-//
-//        Queue <Integer> L5 = new LinkedList<>();
-//
-//        Iterable <Integer> L6 = new LinkedList<>();
-
-        System.out.println(L1);
-
         L1.add("T1");
         L1.add("T2");            // 12/2 = 6
         L1.add("T3");
@@ -31,9 +19,16 @@ public class LinkedList_prac {
         L1.add("T11");
 //        L1.addFirst("T12");
 
-        L1.add(1,"T4");
+    //    L1.add(1,"T4");
 
-        System.out.println(L1);
+      //  System.out.println(L1);
+
+        for(int i=L1.size()-1;i>0;i--)
+        {
+
+            System.out.println(L1.get(i));
+
+        }
 
 
 

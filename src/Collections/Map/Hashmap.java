@@ -15,6 +15,7 @@ public class Hashmap {
         hm.put(133, "lakshman");
         hm.put(136, "casaradh");
 
+
         System.out.println(hm);
 
         System.out.println("$$$$$$");
@@ -40,19 +41,16 @@ public class Hashmap {
         }
 
 
+      Collection <String> s= hm.values();
+
+        for(String folder :s){
+
+            System.out.println(folder);
+
+        }
 
 
 
-  Collection<String> c = hm.values(); // only values printing
-
-        System.out.println(c);
-
-
-  for(String val : hm.values())
-  {
-
-      System.out.println(val );
-  }
 
 
     }

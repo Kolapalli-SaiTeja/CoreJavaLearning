@@ -10,4 +10,11 @@ public class Car_User implements Engine, Brake {
     public void startCar() {
         System.out.println("Start car");
     }
+
+
+    public static void main(String[] args) {
+
+    }
+
+
 }
