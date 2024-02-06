@@ -12,10 +12,10 @@ public class EnumerationExample {
         vector.add("Banana");
         vector.add("Orange");
 
-        vector.elements()
+        vector.elements();
 
         // Getting an Enumeration from the Vector
-        Enumeration<String> enumeration = vector.elements()
+        Enumeration<String> enumeration = vector.elements();
 
         // Using methods of the Enumeration interface
         while (enumeration.hasMoreElements()) {
