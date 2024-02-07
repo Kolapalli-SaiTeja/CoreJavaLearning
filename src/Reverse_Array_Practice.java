@@ -12,7 +12,7 @@ public class Reverse_Array_Practice {
 
 
 
-        String name = "BATMAN";
+        String name = "BATMAN is a super hero";
 
         char[] reverseName=name.toCharArray();
 

@@ -19,6 +19,8 @@ public class list_Prac {
 
        Collections.sort(cars);
 
+
+
         Iterator iterator = cars.iterator();
 
         while (iterator.hasNext())

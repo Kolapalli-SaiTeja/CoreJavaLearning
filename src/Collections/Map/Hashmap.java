@@ -3,7 +3,7 @@ package src.Collections.Map;
 import java.util.HashMap;
 import java.util.*;
 
-public class Hashmap {
+public class Hashmap<I extends Number, I1 extends Number> {
     public static  void main(String[] args) {
 
         HashMap<Integer, String> hm = new HashMap<>();
@@ -14,6 +14,9 @@ public class Hashmap {
         hm.put(135, "hanuman");
         hm.put(133, "lakshman");
         hm.put(136, "casaradh");
+
+
+        //System.out.println(hm.get(135));
 
 
         System.out.println(hm);

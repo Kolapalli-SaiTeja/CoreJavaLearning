@@ -31,9 +31,9 @@ public class Ex15 {
         System.out.println( math(x,y,z));
     }
 
-    public static boolean math(int  n1, int n2,int n3) {
+    public static boolean math(int  x, int y,int z) {
 
 
-        return ((n1 + n2) == n3 || (n2 + n3) == n1 || (n3 + n1) == n2);
+        return ((x + y) == z || (y + z) == x || (z + x) == y);
     }
 }

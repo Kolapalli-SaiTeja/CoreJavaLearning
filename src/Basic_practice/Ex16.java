@@ -2,32 +2,32 @@ package src.Basic_practice;
 
 import java.util.*;
 
-public class Ex16{
+public class Ex16 {
     public static void main(String[] args) {
         // Create a Scanner object for user input
         Scanner in = new Scanner(System.in);
+        System.out.print("Input an integer: ");
 
-        // Prompt the user to input the first number
-        System.out.print("Input the first number: ");
-        int x = 5;
+        // Read an integer from the user
+        int x = in.nextInt();
 
-        // Prompt the user to input the second number
-        System.out.print("Input the second number: ");
-        int y = 6;
-
-        // Prompt the user to input the third number
-        System.out.print("Input the third number: ");
-        int z = 9;
-
-        // Calculate the result using the sumoftwo function and display it
-        System.out.print("The result is: " + sumoftwo(x, y, z));
-
-        // Print a new line for better formatting
-        System.out.print("\n");
+        // Call the result method and print the result
+        System.out.println(result(x));
     }
 
-    // Function to check if the sum of two numbers equals the third number
-    public static boolean sumoftwo(int p, int q, int r) {
-        return ((p + q) == r || (q + r) == p || (r + p) == q);
+    // Define a method to calculate the number of divisors for a given integer
+    public static int result(int num) {
+        int ctr = 0;
+
+        // Iterate from 1 to the square root of the input number
+        for (int i = 1; i <= (int) Math.sqrt(num); i++) {
+            // Check if 'i' is a divisor, and if it's not a perfect square
+            if (num % i == 0 && i * i != num) {
+                ctr += 2;  // Increase the count by 2
+            } else if (i * i == num) {
+                ctr++;  // If 'i' is a perfect square, increase the count by 1
+            }
+        }
+        return ctr;  // Return the total count of divisors
     }
 }

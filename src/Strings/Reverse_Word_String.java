@@ -24,6 +24,7 @@ public class Reverse_Word_String {
                                                                     // now here teja is stored in original, we need to reverse it
             {
 
+
           String reversedString = "";                               // we just gave "" this be just blank, so that strings will come here
 
             for (int i = Original.length()-1; i>=0; i--)             // sai> length is 3 in arrays its 0,1,2, so 3-1, starts from 2, till 0
@@ -36,7 +37,8 @@ public class Reverse_Word_String {
             }
 
 
-                reversed_name = reversed_name + reversedString+ " ";       //  created another variable reversed_name to add space " "
+
+            reversed_name = reversed_name + reversedString+ " ";       //  created another variable reversed_name to add space " "
 
         }
         System.out.println(reversed_name);
