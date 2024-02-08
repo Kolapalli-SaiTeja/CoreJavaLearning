@@ -11,28 +11,28 @@ public class find_frequency {
 
     public static void main(String[] args) {
 
-        int[] arr = {1, 4, 5, 9, 7, 7, 1, 4, 4, 7, 7};
+        int[] arr = {1, 4, 5, 9, 7, 7, 1, 4, 4, 7, 7};  // 1 - 2, 4 - 3, 5- 1, 9-1, 7-4,
+
                  //  0, 1, 2, 3, 4, 5,
+
         //  6,7, 8, 9, 10
 
         HashMap<Integer, Integer> hm = new HashMap<>();
 
 
+
         for (int i = 0; i < arr.length; i++) {
-
-
+            
             if (hm.containsKey(arr[i])) {
 
                 hm.put(arr[i], hm.get(arr[i])+1);
 
-
             } else {
 
-                hm.put(arr[i], 1);
+                hm.put(arr[i], 1);  // 1, 1
             }
 
         }
-
 
         for (Map.Entry<Integer, Integer> entry : hm.entrySet()) {
 

@@ -5,7 +5,7 @@ import java.util.Enumeration;
 import java.util.Hashtable;
 import java.util.Iterator;
 
-public class iterator {
+public class iterator  {
 
     public static void main(String[] args) {
 
@@ -18,11 +18,10 @@ public class iterator {
 
     Iterator<Integer> e=al.iterator();
 
-//        while (e.hasNext()){
-//
-//
-//
-//        }
+        while (e.hasNext()){
+
+
+        }
         e.next();
         e.next();
         e.remove();

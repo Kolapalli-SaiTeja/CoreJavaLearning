@@ -19,20 +19,20 @@ public class list_iterator {
         ListIterator <Integer> li = al.listIterator();
 
 
+//        while (li.hasNext()){
+//
+//            System.out.println(li.next());
+//
+//        }
+//        li.add(100);
+//
+//        System.out.println(al);
+//
+//        System.out.println("  ");
+
         while (li.hasNext()){
 
             System.out.println(li.next());
-
-        }
-        li.add(100);
-
-        System.out.println(al);
-
-        System.out.println("  ");
-
-        while (li.hasPrevious()){
-
-            System.out.println(li.previous());
         }
     }
 }
