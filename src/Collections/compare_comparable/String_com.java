@@ -10,7 +10,8 @@ public class String_com {
     public static void main(String[] args) {
 
 
-        Comparator <String> com = new Comparator<String>() {
+        Comparator <String> com = new Comparator<String>()
+        {
             @Override
             public int compare(String o1, String o2) {
 

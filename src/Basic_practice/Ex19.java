@@ -22,6 +22,7 @@ public class Ex19 {
 
             lt.add(1000);
 
+
             System.out.println(lt.next());
         }
 
